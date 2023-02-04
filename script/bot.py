@@ -2,7 +2,7 @@ from config import Config
 from discord import Interaction, Object
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix=PointConfig.prefix, intents=Config.intents())
+bot = commands.Bot(command_prefix=Config.prefix, intents=Config.intents())
 
 
 @bot.event
